@@ -1,0 +1,16 @@
+void setup(){
+  size(800,800,P3D);
+}
+
+void draw(){
+  background(255);
+  stroke(0);
+  strokeWeight(7);
+  noFill();
+  //fill(0,15,200);
+  translate(400,400,300);
+  rotateX(mouseY * 0.010);
+  rotateY(mouseX * 0.010);
+  box(150);
+  //sphere(150)
+}
